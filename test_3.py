@@ -63,13 +63,14 @@ class LinkedList:
                 self.head = last.next
 
 
-a = Node(5)
-b = Node(20)
-c = Node(12)
-d = Node(50)
-e = Node(2)
-f = Node(102)
+a = Node(20)
+b = Node(11)
+c = Node(10)
+d = Node(5)
+e = Node(2002)
+f = Node(1023)
 r = Node(203)
+k = Node(101)
 linked = LinkedList()
 linked.head = a
 a.next = b
@@ -78,18 +79,19 @@ c.next = d
 d.next = e
 e.next = f
 f.next = r
+r.next = k
 linked.print_list()
 
 print("push")
-linked.push(23)
+linked.push(20)
 linked.print_list()
 
 print("append")
-linked.append(40)
+linked.append(401)
 linked.print_list()
 
 print("insert")
-linked.insert(b, 1123)
+linked.insert(b, 2323)
 linked.print_list()
 
 print("remove")
